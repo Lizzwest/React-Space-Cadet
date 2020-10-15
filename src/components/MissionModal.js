@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Button from 'react-bootstrap/Modal'
-import Modal from 'react-bootstrap/Modal'
+import { Modal, Button } from 'react-bootstrap'
 
 
 const MissionModal = (props) => {
@@ -8,6 +7,7 @@ const MissionModal = (props) => {
   
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+    console.log('modals')
   
     return (
       <>
@@ -31,6 +31,7 @@ const MissionModal = (props) => {
             
           </Modal.Footer>
         </Modal>
+        
       </>
     );
   }
