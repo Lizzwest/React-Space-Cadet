@@ -26,7 +26,7 @@ const Landing = () => {
                             <input type="text" name="username" value={username} onChange={handleUsername} className="usernameInput" required />
                         </div>
       </form>
-      <button className="submitUsername" type='submit'>Start Mission</button>
+      <button  className="submitUsername" type='submit'>Start Mission</button>
       
       
     </div>
