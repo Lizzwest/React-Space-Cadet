@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap'
 
 
-const MissionModal = (props) => {
+const MercuryModal = (props) => {
     const [show, setShow] = useState(false);
   
     const handleClose = () => setShow(false);
@@ -38,4 +38,4 @@ const MissionModal = (props) => {
     );
   }
   
-  export default MissionModal;
+  export default MercuryModal;
