@@ -8,7 +8,6 @@ const Startscreen = (props) => {
     // this.setState({isModalOpen: true})
     return (
         <div className='startscreen'>
-            <h1>Startscreen Page</h1>
             <MissionModal />
             </div>
         

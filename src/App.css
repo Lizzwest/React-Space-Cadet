@@ -1,19 +1,5 @@
-<<<<<<< HEAD
-#root{
-  height: 0;
-  width: 0;
-}
-body{
-  /* height: 100vh;
-  width:100vw; */
-  text-align: center;
-  margin : 0 auto !important;
-  padding: 0;
-
-=======
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
->>>>>>> 4ed9def03d59b01ff224f3330f44293b2af28ac9
 
 body {
   background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg');
@@ -28,25 +14,29 @@ body {
   /* align-items: center; */
 }
 
+/*  */
 .startscreen{
-<<<<<<< HEAD
-  background-image: url('https://res-console.cloudinary.com/dl7aojigh/thumbnails/v1/image/upload/v1602788592/U2NyZWVuX1Nob3RfMjAyMC0xMC0xNV9hdF8xMi4wMi4xM19QTV96a3d5YXc=/preview');
-
-  background-size: cover;
-  height: 375px;
-  width:845px;
-=======
-  background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg');
-  background-size: stretch;
+  background-color: black;
+  background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602786110/HUDC_cuo9db.png');
+  background-size: contain;
+  background-position: center;
+  position: fixed;
   height: 100vh;
   width: 100vw;
->>>>>>> 4ed9def03d59b01ff224f3330f44293b2af28ac9
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
   background-repeat: no-repeat;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
 .landingBody, .logout {
+  /* background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg'); */
   min-width: 200px;
   text-align: center;
   /* margin bottom to better align welcome screen contents without h2 margin offset */
@@ -55,13 +45,6 @@ body {
 
 /* .landingBody, .logout{
   background-image: url('https://res-console.cloudinary.com/dl7aojigh/thumbnails/transform/v1/image/upload//v1602722476/YXBjZV9pdXdtcm4=/drilldown');
-<<<<<<< HEAD
-  background-size: cover;
-  height: 375px;
-  width:812px;
-  background-repeat: no-repeat;
-  /* position: relative; */
-=======
   background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg');
   background-size: cover;
   height: 100vh;
@@ -71,7 +54,6 @@ body {
   margin: 0 auto;
 
 }  */
->>>>>>> 4ed9def03d59b01ff224f3330f44293b2af28ac9
 
 @media(min-width: 813px){
   /* .landingBody{
@@ -124,13 +106,14 @@ body {
 }
 .submitUsername{
   color:#43ECAC;
-margin-top: 40px;
-background: #050706;
-border: 2px solid #050706;
-box-sizing: border-box;
-box-shadow: -4px -2px 16px #00FFFF, 4px 2px 16px rgba(67, 236, 172, 0.48);
-border-radius: 20px;
+  margin-top: 40px;
+  background: #050706;
+  border: 2px solid #050706;
+  box-sizing: border-box;
+  box-shadow: -4px -2px 16px #00FFFF, 4px 2px 16px rgba(67, 236, 172, 0.48);
+  border-radius: 20px;
 }
+
 .modalBody{
   justify-content: center;
   align-self: center;
@@ -139,40 +122,39 @@ border-radius: 20px;
   width:302px;
   height:168px;
   
-  
-
 }
+
 .modal-content{
   width:302px;
   height:168px;
   justify-content: center;
 }
+
 .missionModal{
-  width:302px;
-  height:168px;
+  /* width:302px;
+  height:168px; */
   background: #050706;
-  /* text-align: center;
+  /* display: flex;
   justify-content: center;
-  align-self: center;
   align-items: center; */
-
-
 }
 .missionTitle{
 color: #4AED95
 }
+
 .missionModalContent{
   color:#69FE6F;
   font-size: 10px;
 }
+
 .mapButton{
   color: #4AED95;
   background: #050706;
   border: solid 2px #050706;
   border-radius:12px;
   box-shadow: 0px -2px 10px #69FE6F, 0px 2px 10px rgba(140, 245, 54, 0.37);
-
 }
+
 .newMissionButton{
   color: #4AED95;
   background: #050706;
@@ -180,12 +162,14 @@ color: #4AED95
   border-radius:12px;
   box-shadow: 0px -2px 10px #69FE6F, 0px 2px 10px rgba(140, 245, 54, 0.37);
   font-family: 'Roboto Mono', monospace;
-  margin-top: 40px;
-  background: #050706;
+  /* margin-top is used to perfectly center the new mission button on y axis */
+  margin-top: 60px;
+
+  /* background: #050706;
   border: 2px solid #050706;
   box-sizing: border-box;
   box-shadow: -4px -2px 16px #00FFFF, 4px 2px 16px rgba(67, 236, 172, 0.48);
-  border-radius: 20px;
+  border-radius: 20px; */
 }
 
 #username-label {
