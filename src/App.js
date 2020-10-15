@@ -11,8 +11,16 @@ import Mercury from './components/Mercury';
 import Venus from './components/Venus';
 import Landing from './components/Landing';
 import Navbar from './components/Navbar';
-import MissionModal from './components/MissionModal'
-import Modal from 'react-bootstrap/Modal'
+import MissionModal from './components/MissionModal';
+import FoundHimModal from './components/FoundHimModal';
+import MercuryModal from './components/MercuryModal';
+import ModalTemp from './components/ModalTemp';
+import NewProbe from './components/NewProbe';
+import OhnoModal from './components/OhnoModal';
+import VenusModal from './components/VenusModal';
+import WarningModal from './components/WarningModal';
+import WhyModal from './components/WhyModal'
+
 const REACT_APP_SERVER_URL = process.env.REACT_APP_SERVER_URL;
 
 

@@ -1,19 +1,5 @@
-<<<<<<< HEAD
-#root{
-  height: 0;
-  width: 0;
-}
-body{
-  /* height: 100vh;
-  width:100vw; */
-  text-align: center;
-  margin : 0 auto !important;
-  padding: 0;
-
-=======
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
->>>>>>> 4ed9def03d59b01ff224f3330f44293b2af28ac9
 
 body {
   background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg');
@@ -29,18 +15,10 @@ body {
 }
 
 .startscreen{
-<<<<<<< HEAD
-  background-image: url('https://res-console.cloudinary.com/dl7aojigh/thumbnails/v1/image/upload/v1602788592/U2NyZWVuX1Nob3RfMjAyMC0xMC0xNV9hdF8xMi4wMi4xM19QTV96a3d5YXc=/preview');
-
-  background-size: cover;
-  height: 375px;
-  width:845px;
-=======
   background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg');
   background-size: stretch;
   height: 100vh;
   width: 100vw;
->>>>>>> 4ed9def03d59b01ff224f3330f44293b2af28ac9
   background-repeat: no-repeat;
   background-color: black;
 }
@@ -55,13 +33,6 @@ body {
 
 /* .landingBody, .logout{
   background-image: url('https://res-console.cloudinary.com/dl7aojigh/thumbnails/transform/v1/image/upload//v1602722476/YXBjZV9pdXdtcm4=/drilldown');
-<<<<<<< HEAD
-  background-size: cover;
-  height: 375px;
-  width:812px;
-  background-repeat: no-repeat;
-  /* position: relative; */
-=======
   background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg');
   background-size: cover;
   height: 100vh;
@@ -71,7 +42,6 @@ body {
   margin: 0 auto;
 
 }  */
->>>>>>> 4ed9def03d59b01ff224f3330f44293b2af28ac9
 
 @media(min-width: 813px){
   /* .landingBody{
