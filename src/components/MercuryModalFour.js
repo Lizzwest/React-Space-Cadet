@@ -21,22 +21,23 @@ const MercuryModalFour = (props) => {
 
         <Modal  id='foundHimModal' className='clippedModal' show={show} onHide={handleClose}>
           <Modal.Header >
-            <Modal.Title className='missionTitle'>Oh no!</Modal.Title>
+            <Modal.Title className='missionTitle'></Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'> <strong>Will you like to send a New Probe?</strong></h3>
+                      <h3 className='missionModalContent'> <strong>What protections do you want to add to your probe?</strong></h3>
 
 
           </Modal.Body>
           <Modal.Footer>
-            <Button className='mapButton' variant="secondary" onClick={handleCloseNo}>
-              Lazer Pointer
+            <Button  className="multipleChoice" variant="secondary" onClick={handleCloseNo}>
+              Laser Pointer
             </Button>
-            <Button className='mapButton' variant="secondary" onClick={handleCloseNo}>
+            <Button  className="multipleChoice" variant="secondary" onClick={handleCloseNo}>
               Night Vision
             </Button>
-            <Button className='mapButton' variant="secondary" onClick={handleClose}>
-              Asteroid Force Field
+            <Button  className="multipleChoice" id='thirdButton' variant="secondary" onClick={handleClose}>
+              Asteroid<br/>
+               Force Field
             </Button>
 
           </Modal.Footer>

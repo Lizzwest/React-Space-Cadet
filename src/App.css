@@ -37,6 +37,25 @@ body {
   font-family: 'Space Mono', monospace;
 
 }
+
+.levelTwo{
+background-image:url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602877198/Screen_Shot_2020-10-16_at_12.39.10_PM_skik80.png');
+background-size: contain;
+  background-position: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Space Mono', monospace;
+}
 .fiveprobes{
   background-color: black;
   background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602821005/Screen_Shot_2020-10-15_at_9.03.15_PM_c0zte8.png');
@@ -268,6 +287,32 @@ color: #4AED95
   border: solid 2px #050706;
   border-radius:12px;
   box-shadow: 1px -2px 10px #69FE6F, 1px 2px 10px rgba(140, 245, 54, 0.37);
+}
+.multipleChoice{
+width: 95px;
+height: 69px;
+margin: 7px;
+color: #4AED95;
+  background: #050706;
+  font-size: 12px;
+  border: solid 2px #050706;
+  border-radius:12px;
+  box-shadow: 1px -2px 5px #69FE6F, 1px 2px 5px rgba(140, 245, 54, 0.37);
+/* display: flexbox; */
+/* grid-template-columns: 1fr 1fr 1fr ; */
+}
+.twoAnswers{
+  width:65px;
+  margin: 7px;
+color: #4AED95;
+  background: #050706;
+  border: solid 2px #050706;
+  border-radius:12px;
+  box-shadow: 1px -2px 5px #69FE6F, 1px 2px 5px rgba(140, 245, 54, 0.37);
+}
+#thirdButton{
+  font-size: 11px;
+  /* margin-bottom: 40px */
 }
 .missionDetails{
   font-size:24px;

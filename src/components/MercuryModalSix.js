@@ -20,10 +20,10 @@ const MercuryModalSix = (props) => {
 
         <Modal  id='foundHimModal' className='clippedModal' show={show} onHide={handleClose}>
           <Modal.Header >
-            <Modal.Title className='missionTitle'>Oh no!</Modal.Title>
+            <Modal.Title className='missionTitle'>Great Job!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'> <strong>You Found him! Good work, Cadet</strong></h3>
+                      <h3 className='missionModalContent'> <strong>You Found him!<br /> Good work, Cadet</strong></h3>
 
 
           </Modal.Body>

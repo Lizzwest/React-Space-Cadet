@@ -29,10 +29,10 @@ const MercuryModalThree = (props) => {
 
           </Modal.Body>
           <Modal.Footer>
-            <Button className='mapButton' variant="secondary" onClick={handleClose}>
+            <Button className='twoAnswers' variant="secondary" onClick={handleClose}>
               Yes
             </Button>
-            <Button className='mapButton' variant="secondary" onClick={handleCloseNo}>
+            <Button className='twoAnswers' variant="secondary" onClick={handleCloseNo}>
               No
             </Button>
 

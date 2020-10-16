@@ -31,7 +31,8 @@ import WhyModal from './components/WhyModal';
 import MapWarning from './components/MapWarning';
 import FiringProbe from './components/FiringProbe';
 import MercuryFourProbes from './components/MercuryFourProbes';
-import Error from './components/Error';
+import Error from './components/Error'
+import LevelTwo from './components/LevelTwo'
 const REACT_APP_SERVER_URL = process.env.REACT_APP_SERVER_URL;
 
 
@@ -63,6 +64,7 @@ function App() {
     <Route exact path="/" component= {Landing}/>
     <Route path='/mapwarning' component={ MapWarning } />
     <Route path="/firingprobe" component={ FiringProbe } />
+    <Route path="/leveltwo" component={LevelTwo} />
     <Route path='/cats' component={Error} />
     
 
