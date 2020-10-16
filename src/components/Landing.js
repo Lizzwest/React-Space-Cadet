@@ -14,7 +14,8 @@ const Landing = () => {
     const cadetData= { username }
     return (
     <div className="landingBody">
-        <h1 className="welcome">Welcome Space Cadet</h1>
+        <img src='https://res.cloudinary.com/dl7aojigh/image/upload/v1602867366/H1welcome_vblczw.png'></img><br />
+        <img src='https://res.cloudinary.com/dl7aojigh/image/upload/v1602867359/SpaceAge_vui4js.png'></img>
         {/* <h1 className="welcome">Welcome</h1> */}
         {/* <h2 className="spaceCadet"> Space Cadet </h2> */}
         <div className="astronaut">

@@ -16,15 +16,15 @@ const MercuryModalThree = (props) => {
 
 
 {!show&&<Button className= "newMissionButton" variant="primary" onClick={handleShow}>
-          PROBE OFFLINE
+          PREPARE PROBE
         </Button>}
 
         <Modal  id='foundHimModal' className='clippedModal' show={show} onHide={handleClose}>
           <Modal.Header >
-            <Modal.Title className='missionTitle'>Oh no!</Modal.Title>
+            <Modal.Title className='missionTitle'></Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'> <strong>Will you like to send a New Drone?</strong></h3>
+                      <h3 className='missionModalContent'> <strong>Would you like to send a New Probe?</strong></h3>
 
 
           </Modal.Body>

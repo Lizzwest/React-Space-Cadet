@@ -15,15 +15,15 @@ const MercuryModalTwo = (props) => {
 
 
 {!show&&<Button className= "newMissionButton" variant="primary" onClick={handleShow}>
-          PROBE OFFLINE
+          PROBE STILL OFFLINE
         </Button>}
 
         <Modal  id='foundHimModal' className='clippedModal' show={show} onHide={handleClose}>
           <Modal.Header >
-            <Modal.Title className='missionTitle'>Oh no!</Modal.Title>
+            <Modal.Title className='missionTitle'></Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'> The atmospheric pressure of Mercury is very low, and there’s no barrier to prevent asteroids from impacting Mercury’s crust. Thats why <strong>Mercury has the most craters out of all the Milky Way planets.</strong></h3>
+                      <h3 className='missionModalContent' id="explain"> The atmospheric pressure of Mercury is less than One Trillionth of Earth’s, and there’s no barrier to prevent asteroids from impacting Mercury’s crust. That’s why Mercury has the most craters out of all the Milky Way planets.</h3>
 
 
           </Modal.Body>
