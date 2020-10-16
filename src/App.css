@@ -1,8 +1,28 @@
-*{
-  margin-top: 0;
-}
-body{
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+  background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg');
+  background-size: cover;
   height: 100vh;
+  width: 100vw ;
+  background-repeat: no-repeat;
+  margin : 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+/*  */
+.startscreen{
+  background-color: black;
+  background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602788592/Screen_Shot_2020-10-15_at_12.02.13_PM_zkwyaw.png');
+  background-size: contain;
+  background-position: center;
+  position: fixed;
+  height: 100vh;
+<<<<<<< HEAD
   width:100vw;
   text-align: center;
   background: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg')
@@ -10,42 +30,134 @@ body{
 box-shadow: 25px 25px 45px 45px #0ff;
 height: 100vh */
 
+=======
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+>>>>>>> bc250694626865d5809827465022df81bbe352b5
 }
-.landingBody{
+.fiveprobes{
+  background-color: black;
+  background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602821005/Screen_Shot_2020-10-15_at_9.03.15_PM_c0zte8.png');
+  background-size: contain;
+  background-position: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.warning{
+  background-color: black;
+  background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602820734/Screen_Shot_2020-10-15_at_8.58.33_PM_ffqh24.png');
+  background-size: contain;
+  background-position: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.landingBody, .logout {
+  /* background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg'); */
+  min-width: 200px;
+  text-align: center;
+  /* margin bottom to better align welcome screen contents without h2 margin offset */
+  margin-bottom: 30px;
+}
+
+/* .landingBody, .logout{
   background-image: url('https://res-console.cloudinary.com/dl7aojigh/thumbnails/transform/v1/image/upload//v1602722476/YXBjZV9pdXdtcm4=/drilldown');
-  background-size: 100%;
-  height: 375px;
-  width:812px;
+  background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw ;
   background-repeat: no-repeat;
   position: relative;
+  margin: 0 auto;
 
+}  */
+
+<<<<<<< HEAD
 
 }
+=======
+>>>>>>> bc250694626865d5809827465022df81bbe352b5
 @media(min-width: 813px){
-  .landingBody{
+  /* .landingBody{
     background-image: url('https://res-console.cloudinary.com/dl7aojigh/thumbnails/transform/v1/image/upload/Y19zY2FsZSxoXzExMDAsd18xNDAw/v1602722476/YXBjZV9pdXdtcm4=/template_primary');
-  }
+    background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg');
+  } */
 }
-.signup{
+
+
+.signup {
   height: 375px;
-  width:812px;
+  width: 812px;
 }
-.astronaut{
+
+#astronaut-image{
+  background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602738390/astronaut_landing_page_image_l9ytsa.png');
+  background-size: contain;
   position: absolute;
+<<<<<<< HEAD
   background: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602738390/astronaut_landing_page_image_l9ytsa.png');
   width: 233px;
   height: 334px;
   left: -10px;
   top: 60px;
+=======
+  width: 233px;
+  height: 334px;
+  left: -30px;
+  top: -20px;
+  z-index: -1;
 }
+
+@media (min-width: 600px) and (orientation: landscape){
+  #astronaut-image{
+    top: 40px;
+  }
+>>>>>>> bc250694626865d5809827465022df81bbe352b5
+}
+
 .welcome{
-  color:#4AB0ED
+  color:#4AB0ED;
+  font-family: 'Audiowide', cursive;
 }
 .spaceCadet{
+  font-family: 'Audiowide', cursive;
   color:#4AED95
 }
 .labelForUsername{
-  color:#FFFFFF
+  color:#FFFFFF;
+  font-family: 'Roboto Mono', monospace;
 }
 .usernameInput{
   background: #acacac32;
@@ -56,6 +168,7 @@ height: 100vh */
 }
 .submitUsername{
   color:#43ECAC;
+<<<<<<< HEAD
 margin-top: 40px;
 background: #050706;
 border: 2px solid #050706;
@@ -63,3 +176,165 @@ box-sizing: border-box;
 box-shadow: -4px -2px 16px #00FFFF, 4px 2px 16px rgba(67, 236, 172, 0.48);
 border-radius: 20px;
 }
+=======
+  margin-top: 40px;
+  background: #050706;
+  border: 2px solid #050706;
+  box-sizing: border-box;
+  box-shadow: -4px -2px 16px #00FFFF, 4px 2px 16px rgba(67, 236, 172, 0.48);
+  border-radius: 20px;
+}
+
+.modalBody{
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  width:302px;
+  height:168px;
+  
+}
+
+.modal-content{
+  width:330px;
+  height:200px;
+  justify-content: center;
+}
+
+#missionModal{
+  /* width:302px;
+  height:168px; */
+  background: #050706;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  z-index: 10000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%)
+
+}
+.mercuryDetails{
+  width: 200px;
+}
+.mercury{
+  background-color: black;
+  background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602860937/D3632999-4119-4825-B3E5-FDABB71B69DC_bbytrw.jpg');
+  background-size: contain;
+  background-position: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+#foundHimModal .modal-content,
+#missionModal .modal-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.missionTitle{
+color: #4AED95
+}
+
+.missionModalContent{
+  color:#69FE6F;
+  font-size: 18px;
+  text-align: center;
+}
+.missionModalSmaller{
+  color:#69FE6F;
+  font-size: 14px;
+  text-align: center;
+}
+.missionModalSmallest{
+  color:#69FE6F;
+  font-size: 12px;
+  text-align: center;
+}
+
+.mapButton{
+  color: #4AED95;
+  background: #050706;
+  border: solid 2px #050706;
+  border-radius:12px;
+  box-shadow: 1px -2px 10px #69FE6F, 1px 2px 10px rgba(140, 245, 54, 0.37);
+}
+.missionDetails{
+  font-size:24px;
+  color: #4AED95;
+  background: #050706;
+  border: solid 2px #050706;
+  border-radius:12px;
+  box-shadow: 0px -2px 10px #69FE6F, 0px 2px 10px rgba(140, 245, 54, 0.37);
+  font-family: 'Roboto Mono', monospace;
+  /* margin-top is used to perfectly center the new mission button on y axis */
+  margin-top: 60px;
+}
+.newMissionButton{
+  color: #4AED95;
+  background: #050706;
+  border: solid 2px #050706;
+  border-radius:12px;
+  box-shadow: 0px -2px 10px #69FE6F, 0px 2px 10px rgba(140, 245, 54, 0.37);
+  font-family: 'Roboto Mono', monospace;
+  /* margin-top is used to perfectly center the new mission button on y axis */
+  margin-top: 60px;
+
+  /* background: #050706;
+  border: 2px solid #050706;
+  box-sizing: border-box;
+  box-shadow: -4px -2px 16px #00FFFF, 4px 2px 16px rgba(67, 236, 172, 0.48);
+  border-radius: 20px; */
+}
+
+#username-label {
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+}
+.clippedModal{
+  height: 218px;
+width: 453px;
+z-index: 10000;
+position: fixed;
+top: 50%;
+left: 50%;
+transform:translate(-50%, -50%);
+background-image:url('https://res-console.cloudinary.com/dl7aojigh/thumbnails/v1/image/upload/v1602806950/bW9kYWx0ZW1wbGF0ZV91NGNncGc=/preview');
+background-size: contain;
+background-repeat: no-repeat;
+/* background-color: chartreuse; */
+/* clip-path: polygon(20% 0, 80% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0 80%,0 20% ); */
+/* box-shadow: 0px -2px 10px #011b02, 0px 2px 10px rgba(140, 245, 54, 0.37); */
+/* border: solid 20px red; */
+
+
+
+
+}
+.goToMercury{
+  width:100px;
+    color: #4AED95;
+    background: #050706b2;
+    border: solid 2px #050706;
+    border-radius:12px;
+    box-shadow: 1px -2px 10px #69FE6F, 1px 2px 10px rgba(140, 245, 54, 0.37);
+    position: fixed;
+top: 45%;
+left: 63%;
+transform:translate(-50%, -50%);
+  
+}
+>>>>>>> bc250694626865d5809827465022df81bbe352b5

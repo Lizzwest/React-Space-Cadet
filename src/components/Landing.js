@@ -10,23 +10,26 @@ const Landing = () => {
     let handleSubmit = (e) => {
         e.preventDefault();
     }
+    const handleShift = () => {window.location.href= "/startscreen"};
     const cadetData= { username }
     return (
     <div className="landingBody">
-      <h2 className="welcome">Welcome</h2>
-      <h1 className="spaceCadet"> Space Cadet </h1>
-      <div className="astronaut">
-     <div>
-         <img src={'https://res-console.cloudinary.com/dl7aojigh/thumbnails/v1/image/upload/v1602738390/YXN0cm9uYXV0X2xhbmRpbmdfcGFnZV9pbWFnZV9sOXl0c2E=/preview'} alt="astronaut" className="astronaut"/></div>
-      </div>
-      <h4 className="labelForUsername"> What should we call you?</h4>
+        <h1 className="welcome">Welcome Space Cadet</h1>
+        {/* <h1 className="welcome">Welcome</h1> */}
+        {/* <h2 className="spaceCadet"> Space Cadet </h2> */}
+        <div className="astronaut">
+            <h4 className="labelForUsername"> What should we call you?</h4>
+            <div id="astronaut-image">
+                {/* removed img tag in favor of background image on div */}
+            </div>
+        </div>
       <form onSubmit={handleSubmit}>
                         <div className="form-group">
-                            <label htmlFor="username">Username</label><br />
+                            <label htmlFor="username" id="username-label">Username</label><br />
                             <input type="text" name="username" value={username} onChange={handleUsername} className="usernameInput" required />
                         </div>
       </form>
-      <button className="submitUsername" type='submit'>Start Mission</button>
+      <button onClick={handleShift} className="submitUsername" type='submit'>Start Mission</button>
       
       
     </div>
