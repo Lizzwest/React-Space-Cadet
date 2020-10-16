@@ -5,7 +5,7 @@ import { Modal, Button } from 'react-bootstrap'
 const FoundHimModal = (props) => {
     const [show, setShow] = useState(false);
   
-    const handleClose = () => {window.location.href= "/"};
+    const handleClose = () => {window.location.href= "/nextmission"};
     const handleShow = () => setShow(true);
     console.log('modals')
   
@@ -19,16 +19,16 @@ const FoundHimModal = (props) => {
   
         <Modal  id='foundHimModal' className='clippedModal' show={show} onHide={handleClose}>
           <Modal.Header >
-            <Modal.Title className='missionTitle'>MISSION DETECTED!</Modal.Title>
+            <Modal.Title className='missionTitle'>You Found Him!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'>Solar System: Mercury</h3>
-                      <h3 className='missionModalContent'>Missions: 1</h3>
+                      <h3 className='missionModalContent'>Good Work Cadet!</h3>
+                      
                                       
           </Modal.Body>
           <Modal.Footer>
             <Button className='mapButton' variant="secondary" onClick={handleClose}>
-              Open Map
+              Next
             </Button>
             
           </Modal.Footer>

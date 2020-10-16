@@ -205,6 +205,23 @@ body {
   justify-content: center;
 
 }
+.fourprobes{
+  background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602863426/Screen_Shot_2020-10-16_at_8.50.11_AM_hzpokn.png');
+  background-size: contain;
+  background-position: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 #foundHimModal .modal-content,
 #missionModal .modal-content{
   display: flex;

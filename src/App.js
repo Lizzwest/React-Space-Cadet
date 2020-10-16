@@ -22,7 +22,7 @@ import WarningModal from './components/WarningModal';
 import WhyModal from './components/WhyModal';
 import MapWarning from './components/MapWarning';
 import FiringProbe from './components/FiringProbe';
-
+import MercuryFourProbes from './components/MercuryFourProbes'
 const REACT_APP_SERVER_URL = process.env.REACT_APP_SERVER_URL;
 
 
