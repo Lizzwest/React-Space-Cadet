@@ -120,6 +120,12 @@ body {
 #explain{
   font-size: 14px;
 }
+#error{
+  margin-bottom: 10%
+}
+.lostInspace{
+  color: white;
+}
 button{
   font-family: 'Space Mono', monospace !important;
 }

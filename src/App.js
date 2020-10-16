@@ -10,6 +10,9 @@ import Mars from './components/Mars';
 import Mercury from './components/Mercury';
 import MercuryTwo from './components/MercuryTwo';
 import MercuryThree from './components/MercuryThree';
+import MercuryFour from './components/MercuryFour';
+import MercuryFive from './components/MercuryFive';
+import MercurySix from './components/MercurySix';
 import Venus from './components/Venus';
 import Landing from './components/Landing';
 import Navbar from './components/Navbar';
@@ -18,6 +21,7 @@ import FoundHimModal from './components/FoundHimModal';
 import MercuryModal from './components/MercuryModal';
 import MercuryModalTwo from './components/MercuryModalTwo';
 import MercuryModalThree from './components/MercuryModalThree';
+import MercuryModalFour from './components/MercuryModalFour';
 import ModalTemp from './components/ModalTemp';
 import NewProbe from './components/NewProbe';
 import OhnoModal from './components/OhnoModal';
@@ -26,7 +30,8 @@ import WarningModal from './components/WarningModal';
 import WhyModal from './components/WhyModal';
 import MapWarning from './components/MapWarning';
 import FiringProbe from './components/FiringProbe';
-import MercuryFourProbes from './components/MercuryFourProbes'
+import MercuryFourProbes from './components/MercuryFourProbes';
+import Error from './components/Error';
 const REACT_APP_SERVER_URL = process.env.REACT_APP_SERVER_URL;
 
 
@@ -51,11 +56,14 @@ function App() {
     <Route path="/mercury" component={ Mercury } />
     <Route path="/mercurytwo" component={ MercuryTwo } />
     <Route path="/mercurythree" component={ MercuryThree } />
+    <Route path="/mercuryfour" component={ MercuryFour } />
+    <Route path="/mercuryfive" component={ MercuryFive } />
+    <Route path="/mercurysix" component={ MercurySix } />
     <Route path="/venus" component={ Venus } />
-    <Route exact path="/"
-          render={(props) => <Landing {...props}/>}/>
+    <Route path="/landing" component= {Landing}/>
     <Route path='/mapwarning' component={ MapWarning } />
     <Route path="/firingprobe" component={ FiringProbe } />
+    <Route path="*" component={Error} />
 
    </Router>
 
