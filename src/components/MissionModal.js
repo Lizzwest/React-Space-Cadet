@@ -5,7 +5,7 @@ import { Modal, Button } from 'react-bootstrap'
 const MissionModal = (props) => {
     const [show, setShow] = useState(false);
   
-    const handleClose = () => setShow(false);
+    const handleClose = () => {window.location.href= "/mapwarning"}
     const handleShow = () => setShow(true);
     console.log('modals')
   

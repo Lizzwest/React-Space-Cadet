@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap'
 
 
-const WarningModal = (props) => {
+const ToMercuryModal = (props) => {
     const [show, setShow] = useState(false);
   
-    const handleShift = () => {window.location.href="/firingprobe"}
+    const handleShift = () => {window.location.href="/mercury"}
     const handleShow = () => setShow(true);
     console.log('modals')
   
@@ -14,21 +14,27 @@ const WarningModal = (props) => {
 
           {/* //gotta center */}
         {!show&&<Button className= "missionDetails" variant="primary" onClick={handleShow}>
-          MISSION DETAILS 
+          CADET LOCATED 
         </Button>}
   
-        <Modal  id='foundHimModal' className='clippedModal' show={show} onHide={handleShift}>
+        <Modal  id='missionModal' className='mercuryDetails' show={show} onHide={handleShift}>
           <Modal.Header >
             <Modal.Title className='missionTitle'></Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'>A fellow Cadet has been lost at the bottom of a crater and needs your help!</h3>
-                      <h4 className='missionModalSmaller'>Ready to send out a probe to find him?</h4>
+                      <h4 className='missionModalSmaller'>Planet : Mercury</h4>
+                      <h5 className='missionModalSmallest'>
+                      Weather : None<br />
+                      Atmosphere : Thin<br />
+                      Temperature : 243°<br />
+                      Terrain : Craters</h5>
+
+                      
                                       
           </Modal.Body>
           <Modal.Footer>
             <Button className='mapButton' variant="secondary" onClick={handleShift}>
-              Send Probe
+              Let's Go
             </Button>
             
           </Modal.Footer>
@@ -38,4 +44,4 @@ const WarningModal = (props) => {
     );
   }
   
-  export default WarningModal;
+  export default ToMercuryModal;

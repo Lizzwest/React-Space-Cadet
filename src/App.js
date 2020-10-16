@@ -19,7 +19,9 @@ import NewProbe from './components/NewProbe';
 import OhnoModal from './components/OhnoModal';
 import VenusModal from './components/VenusModal';
 import WarningModal from './components/WarningModal';
-import WhyModal from './components/WhyModal'
+import WhyModal from './components/WhyModal';
+import MapWarning from './components/MapWarning';
+import FiringProbe from './components/FiringProbe';
 
 const REACT_APP_SERVER_URL = process.env.REACT_APP_SERVER_URL;
 
@@ -46,7 +48,9 @@ function App() {
     <Route path="/venus" component={ Venus } />
     <Route exact path="/"
           render={(props) => <Landing {...props}/>}/>
-    <Route path='/modalone' component={FoundHimModal} />
+    <Route path='/mapwarning' component={ MapWarning } />
+    <Route path="/firingprobe" component={ FiringProbe } />
+
    </Router>
   
    

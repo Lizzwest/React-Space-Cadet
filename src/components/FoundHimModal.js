@@ -5,17 +5,17 @@ import { Modal, Button } from 'react-bootstrap'
 const FoundHimModal = (props) => {
     const [show, setShow] = useState(false);
   
-    const handleClose = () => {window.location.href= "/cats"};
+    const handleClose = () => {window.location.href= "/"};
     const handleShow = () => setShow(true);
     console.log('modals')
   
     return (
-      <div className='modalBodyOne'>
+      <div className='modalBody'>
 
-          {/* //gotta center */}
-        <Button className= "newMissionButton" variant="primary" onClick={handleShow}>
+          
+        {!show&&<Button className= "newMissionButton" variant="primary" onClick={handleShow}>
          Start New Mission
-        </Button>
+        </Button>}
   
         <Modal  id='foundHimModal' className='clippedModal' show={show} onHide={handleClose}>
           <Modal.Header >

@@ -10,6 +10,7 @@ const Landing = () => {
     let handleSubmit = (e) => {
         e.preventDefault();
     }
+    const handleShift = () => {window.location.href= "/startscreen"};
     const cadetData= { username }
     return (
     <div className="landingBody">
@@ -28,7 +29,7 @@ const Landing = () => {
                             <input type="text" name="username" value={username} onChange={handleUsername} className="usernameInput" required />
                         </div>
       </form>
-      <button  className="submitUsername" type='submit'>Start Mission</button>
+      <button onClick={handleShift} className="submitUsername" type='submit'>Start Mission</button>
       
       
     </div>
