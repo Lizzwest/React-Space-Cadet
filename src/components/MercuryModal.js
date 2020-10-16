@@ -5,30 +5,31 @@ import { Modal, Button } from 'react-bootstrap'
 const MercuryModal = (props) => {
     const [show, setShow] = useState(false);
   
-    const handleClose = () => setShow(false);
+    const handleClose = () => {window.location.href= "/"};
+
     const handleShow = () => setShow(true);
     console.log('modals')
   
     return (
       <div className='modalBody'>
 
-          {/* //gotta center */}
-        <Button className= "newMissionButton" variant="primary" onClick={handleShow}>
-          New Mission Incoming. . . 
-        </Button>
+          
+{!show&&<Button className= "newMissionButton" variant="primary" onClick={handleShow}>
+          PROBE OFFLINE 
+        </Button>}
   
-        <Modal  id='missionModal' show={show} onHide={handleClose}>
+        <Modal  id='foundHimModal' className='clippedModal' show={show} onHide={handleClose}>
           <Modal.Header >
-            <Modal.Title className='missionTitle'>MISSION DETECTED!</Modal.Title>
+            <Modal.Title className='missionTitle'>Oh no!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'>Solar System: Mercury</h3>
-                      <h3 className='missionModalContent'>Missions: 1</h3>
+                      <h3 className='missionModalContent'> Your first probe has been destroyed by an asteroid!</h3>
+                      
                                       
           </Modal.Body>
           <Modal.Footer>
             <Button className='mapButton' variant="secondary" onClick={handleClose}>
-              Open Map
+              Why?
             </Button>
             
           </Modal.Footer>

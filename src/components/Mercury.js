@@ -1,11 +1,13 @@
 import React from 'react';
+import MercuryModal from './MercuryModal'
 
 const Mercury = () => {
     return (
         <div className='mercury'>
-            <h1>Mercury Page</h1>
+            <MercuryModal />
         </div>
     );
     }
 
     export default Mercury;
+    
