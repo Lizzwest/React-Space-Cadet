@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap'
 
 
-const MercuryModal = (props) => {
+const MercuryModalThree = (props) => {
     const [show, setShow] = useState(false);
 
-    const handleClose = () => {window.location.href= "/mercurytwo"};
+    const handleClose = () => {window.location.href= "/"};
+    const handleCloseNo = () => {window.location.href= "/mercurytwo"};
 
     const handleShow = () => setShow(true);
     console.log('modals')
@@ -23,13 +24,16 @@ const MercuryModal = (props) => {
             <Modal.Title className='missionTitle'>Oh no!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'> Your first probe has been destroyed by an asteroid!</h3>
+                      <h3 className='missionModalContent'> <strong>Will you like to send a New Drone?</strong></h3>
 
 
           </Modal.Body>
           <Modal.Footer>
             <Button className='mapButton' variant="secondary" onClick={handleClose}>
-              Why?
+              Yes
+            </Button>
+            <Button className='mapButton' variant="secondary" onClick={handleCloseNo}>
+              No
             </Button>
 
           </Modal.Footer>
@@ -39,4 +43,4 @@ const MercuryModal = (props) => {
     );
   }
 
-  export default MercuryModal;
+  export default MercuryModalThree;

@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
 }
 .fiveprobes{
   background-color: black;
@@ -160,7 +160,7 @@ body {
   text-align: center;
   width:302px;
   height:168px;
-  
+
 }
 
 .modal-content{
@@ -303,5 +303,5 @@ background-repeat: no-repeat;
 top: 45%;
 left: 63%;
 transform:translate(-50%, -50%);
-  
+
 }
