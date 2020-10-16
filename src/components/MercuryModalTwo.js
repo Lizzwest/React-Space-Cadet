@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap'
 
 
-const MercuryModal = (props) => {
+const MercuryModalTwo = (props) => {
     const [show, setShow] = useState(false);
 
-    const handleClose = () => {window.location.href= "/mercurytwo"};
+    const handleClose = () => {window.location.href= "/mercurythree"};
 
     const handleShow = () => setShow(true);
     console.log('modals')
@@ -23,13 +23,13 @@ const MercuryModal = (props) => {
             <Modal.Title className='missionTitle'>Oh no!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'> Your first probe has been destroyed by an asteroid!</h3>
+                      <h3 className='missionModalContent'> The atmospheric pressure of Mercury is very low, and there’s no barrier to prevent asteroids from impacting Mercury’s crust. Thats why <strong>Mercury has the most craters out of all the Milky Way planets.</strong></h3>
 
 
           </Modal.Body>
           <Modal.Footer>
             <Button className='mapButton' variant="secondary" onClick={handleClose}>
-              Why?
+              Understood!
             </Button>
 
           </Modal.Footer>
@@ -39,4 +39,4 @@ const MercuryModal = (props) => {
     );
   }
 
-  export default MercuryModal;
+  export default MercuryModalTwo;

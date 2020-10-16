@@ -22,15 +22,6 @@ body {
   background-position: center;
   position: fixed;
   height: 100vh;
-<<<<<<< HEAD
-  width:100vw;
-  text-align: center;
-  background: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg')
-  /* background-color: rgb(25, 105, 116);
-box-shadow: 25px 25px 45px 45px #0ff;
-height: 100vh */
-
-=======
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -41,8 +32,7 @@ height: 100vh */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
->>>>>>> bc250694626865d5809827465022df81bbe352b5
+
 }
 .fiveprobes{
   background-color: black;
@@ -104,11 +94,6 @@ height: 100vh */
 
 }  */
 
-<<<<<<< HEAD
-
-}
-=======
->>>>>>> bc250694626865d5809827465022df81bbe352b5
 @media(min-width: 813px){
   /* .landingBody{
     background-image: url('https://res-console.cloudinary.com/dl7aojigh/thumbnails/transform/v1/image/upload/Y19zY2FsZSxoXzExMDAsd18xNDAw/v1602722476/YXBjZV9pdXdtcm4=/template_primary');
@@ -126,13 +111,6 @@ height: 100vh */
   background-image: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602738390/astronaut_landing_page_image_l9ytsa.png');
   background-size: contain;
   position: absolute;
-<<<<<<< HEAD
-  background: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602738390/astronaut_landing_page_image_l9ytsa.png');
-  width: 233px;
-  height: 334px;
-  left: -10px;
-  top: 60px;
-=======
   width: 233px;
   height: 334px;
   left: -30px;
@@ -144,7 +122,6 @@ height: 100vh */
   #astronaut-image{
     top: 40px;
   }
->>>>>>> bc250694626865d5809827465022df81bbe352b5
 }
 
 .welcome{
@@ -168,15 +145,6 @@ height: 100vh */
 }
 .submitUsername{
   color:#43ECAC;
-<<<<<<< HEAD
-margin-top: 40px;
-background: #050706;
-border: 2px solid #050706;
-box-sizing: border-box;
-box-shadow: -4px -2px 16px #00FFFF, 4px 2px 16px rgba(67, 236, 172, 0.48);
-border-radius: 20px;
-}
-=======
   margin-top: 40px;
   background: #050706;
   border: 2px solid #050706;
@@ -192,7 +160,7 @@ border-radius: 20px;
   text-align: center;
   width:302px;
   height:168px;
-  
+
 }
 
 .modal-content{
@@ -335,6 +303,5 @@ background-repeat: no-repeat;
 top: 45%;
 left: 63%;
 transform:translate(-50%, -50%);
-  
+
 }
->>>>>>> bc250694626865d5809827465022df81bbe352b5

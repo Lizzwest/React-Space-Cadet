@@ -10,4 +10,3 @@ const Mercury = () => {
     }
 
     export default Mercury;
-    
