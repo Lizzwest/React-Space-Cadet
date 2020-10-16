@@ -5,10 +5,11 @@ body{
   height: 100vh;
   width:100vw;
   text-align: center;
+  background: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602722476/apce_iuwmrn.jpg')
   /* background-color: rgb(25, 105, 116);
 box-shadow: 25px 25px 45px 45px #0ff;
 height: 100vh */
-  
+
 }
 .landingBody{
   background-image: url('https://res-console.cloudinary.com/dl7aojigh/thumbnails/transform/v1/image/upload//v1602722476/YXBjZV9pdXdtcm4=/drilldown');
@@ -18,7 +19,7 @@ height: 100vh */
   background-repeat: no-repeat;
   position: relative;
 
-  
+
 }
 @media(min-width: 813px){
   .landingBody{
@@ -31,10 +32,11 @@ height: 100vh */
 }
 .astronaut{
   position: absolute;
-width: 233px;
-height: 334px;
-left: -10px;
-top: 60px;
+  background: url('https://res.cloudinary.com/dl7aojigh/image/upload/v1602738390/astronaut_landing_page_image_l9ytsa.png');
+  width: 233px;
+  height: 334px;
+  left: -10px;
+  top: 60px;
 }
 .welcome{
   color:#4AB0ED
