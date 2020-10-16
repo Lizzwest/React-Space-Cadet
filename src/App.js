@@ -60,10 +60,11 @@ function App() {
     <Route path="/mercuryfive" component={ MercuryFive } />
     <Route path="/mercurysix" component={ MercurySix } />
     <Route path="/venus" component={ Venus } />
-    <Route path="/landing" component= {Landing}/>
+    <Route exact path="/" component= {Landing}/>
     <Route path='/mapwarning' component={ MapWarning } />
     <Route path="/firingprobe" component={ FiringProbe } />
-    <Route path="*" component={Error} />
+    <Route path='/cats' component={Error} />
+    
 
    </Router>
 
