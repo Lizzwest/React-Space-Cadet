@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap'
 
 
-const MercuryModalThree = (props) => {
+const MercuryModalFour = (props) => {
     const [show, setShow] = useState(false);
 
-    const handleClose = () => {window.location.href= "/mercuryfour"};
-    const handleCloseNo = () => {window.location.href= "/mercurytwo"};
+    const handleClose = () => {window.location.href= "/mercurysix"};
+    const handleCloseNo = () => {window.location.href= "/mercuryfive"};
 
     const handleShow = () => setShow(true);
     console.log('modals')
@@ -16,7 +16,7 @@ const MercuryModalThree = (props) => {
 
 
 {!show&&<Button className= "newMissionButton" variant="primary" onClick={handleShow}>
-          PROBE OFFLINE
+          Select Shield!
         </Button>}
 
         <Modal  id='foundHimModal' className='clippedModal' show={show} onHide={handleClose}>
@@ -29,11 +29,14 @@ const MercuryModalThree = (props) => {
 
           </Modal.Body>
           <Modal.Footer>
-            <Button className='mapButton' variant="secondary" onClick={handleClose}>
-              Yes
+            <Button className='mapButton' variant="secondary" onClick={handleCloseNo}>
+              Lazer Pointer
             </Button>
             <Button className='mapButton' variant="secondary" onClick={handleCloseNo}>
-              No
+              Night Vision
+            </Button>
+            <Button className='mapButton' variant="secondary" onClick={handleClose}>
+              Asteroid Force Field
             </Button>
 
           </Modal.Footer>
@@ -43,4 +46,4 @@ const MercuryModalThree = (props) => {
     );
   }
 
-  export default MercuryModalThree;
+  export default MercuryModalFour;

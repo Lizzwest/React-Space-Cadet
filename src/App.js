@@ -10,6 +10,9 @@ import Mars from './components/Mars';
 import Mercury from './components/Mercury';
 import MercuryTwo from './components/MercuryTwo';
 import MercuryThree from './components/MercuryThree';
+import MercuryFour from './components/MercuryFour';
+import MercuryFive from './components/MercuryFive';
+import MercurySix from './components/MercurySix';
 import Venus from './components/Venus';
 import Landing from './components/Landing';
 import Navbar from './components/Navbar';
@@ -18,6 +21,7 @@ import FoundHimModal from './components/FoundHimModal';
 import MercuryModal from './components/MercuryModal';
 import MercuryModalTwo from './components/MercuryModalTwo';
 import MercuryModalThree from './components/MercuryModalThree';
+import MercuryModalFour from './components/MercuryModalFour';
 import ModalTemp from './components/ModalTemp';
 import NewProbe from './components/NewProbe';
 import OhnoModal from './components/OhnoModal';
@@ -51,6 +55,9 @@ function App() {
     <Route path="/mercury" component={ Mercury } />
     <Route path="/mercurytwo" component={ MercuryTwo } />
     <Route path="/mercurythree" component={ MercuryThree } />
+    <Route path="/mercuryfour" component={ MercuryFour } />
+    <Route path="/mercuryfive" component={ MercuryFive } />
+    <Route path="/mercurysix" component={ MercurySix } />
     <Route path="/venus" component={ Venus } />
     <Route exact path="/"
           render={(props) => <Landing {...props}/>}/>
