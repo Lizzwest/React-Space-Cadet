@@ -46,7 +46,7 @@ function App() {
     <Route path="/venus" component={ Venus } />
     <Route exact path="/"
           render={(props) => <Landing {...props}/>}/>
-    <Route path='/modal' component={ MissionModal} />
+    <Route path='/modalone' component={FoundHimModal} />
    </Router>
   
    

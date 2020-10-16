@@ -13,9 +13,9 @@ const MissionModal = (props) => {
       <div className='modalBody'>
 
           {/* //gotta center */}
-        <Button className= "newMissionButton" variant="primary" onClick={handleShow}>
-          New Mission Incoming. . . 
-        </Button>
+        {!show&&<Button className= "newMissionButton" variant="primary" onClick={handleShow}>
+          Start New Mission 
+        </Button>}
   
         <Modal  id='missionModal' show={show} onHide={handleClose}>
           <Modal.Header >
@@ -27,7 +27,8 @@ const MissionModal = (props) => {
                                       
           </Modal.Body>
           <Modal.Footer>
-            <Button className='mapButton' variant="secondary" onClick={handleClose}>
+           
+           <Button className='mapButton' variant="secondary" onClick={handleClose}>
               Open Map
             </Button>
             
