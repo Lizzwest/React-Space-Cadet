@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap'
 
 
-const MercuryModalThree = (props) => {
+const MercuryModalSix = (props) => {
     const [show, setShow] = useState(false);
 
-    const handleClose = () => {window.location.href= "/mercuryfour"};
-    const handleCloseNo = () => {window.location.href= "/mercurytwo"};
+    const handleClose = () => {window.location.href= "/leveltwo"};
 
     const handleShow = () => setShow(true);
     console.log('modals')
@@ -16,7 +15,7 @@ const MercuryModalThree = (props) => {
 
 
 {!show&&<Button className= "newMissionButton" variant="primary" onClick={handleShow}>
-          PROBE OFFLINE
+          LOCATION ACQUIRED
         </Button>}
 
         <Modal  id='foundHimModal' className='clippedModal' show={show} onHide={handleClose}>
@@ -24,16 +23,13 @@ const MercuryModalThree = (props) => {
             <Modal.Title className='missionTitle'>Oh no!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'> <strong>Will you like to send a New Probe?</strong></h3>
+                      <h3 className='missionModalContent'> <strong>You Found him! Good work, Cadet</strong></h3>
 
 
           </Modal.Body>
           <Modal.Footer>
             <Button className='mapButton' variant="secondary" onClick={handleClose}>
-              Yes
-            </Button>
-            <Button className='mapButton' variant="secondary" onClick={handleCloseNo}>
-              No
+              Next
             </Button>
 
           </Modal.Footer>
@@ -43,4 +39,4 @@ const MercuryModalThree = (props) => {
     );
   }
 
-  export default MercuryModalThree;
+  export default MercuryModalSix;
