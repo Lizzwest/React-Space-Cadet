@@ -23,13 +23,13 @@ const MercuryModalSix = (props) => {
             <Modal.Title className='missionTitle'>Great Job!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-                      <h3 className='missionModalContent'> <strong>You Found him!<br /> Good work, Cadet</strong></h3>
+                      <h3 className='missionModalContent'> <strong>You Found him!<br /> Good work, Cadet Sidney!</strong></h3>
 
 
           </Modal.Body>
           <Modal.Footer>
             <Button className='mapButton' variant="secondary" onClick={handleClose}>
-              Next
+              Next Mission
             </Button>
 
           </Modal.Footer>

@@ -3,10 +3,9 @@ import MercuryModalSix from './MercuryModalSix'
 
 const MercurySix = () => {
     return (
-        <div className='mercury'>
+        <div className='mercurySix'>
             <MercuryModalSix />
         </div>
     );
     }
-
     export default MercurySix;
